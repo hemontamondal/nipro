@@ -20,32 +20,33 @@
   <body>
   
     <!-- header start -->
-    <header>
+     <!-- header start -->
+    <header class="fixed-top">
       <div class="container">
         <nav class="navbar navbar-expand-lg py-0">
           <div class="container-fluid px-0">
             <a class="navbar-brand t_logo" href="index.html">Nipro Agency</a>
 
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav_cus" aria-controls="nav_cus" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
+            <button class="navbar-toggler nav_tog" type="button" data-bs-toggle="collapse" data-bs-target="#nav_cus" aria-controls="nav_cus" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon navtog_icon"></span>
             </button>
 
             <div class="collapse navbar-collapse menu" id="nav_cus">
               <ul class="navbar-nav ms-auto mb-0">
                 <li class="nav-item">
-                  <a class="nav-link m_item active" aria-current="page" href="#">Home</a>
+                  <a class="nav-link" aria-current="page" href="index.html">Home</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link m_item" href="#">Service</a>
+                  <a class="nav-link" href="#service">Service</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link m_item" href="#">Portfolio</a>
+                  <a class="nav-link" href="#portfolio">Portfolio</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link m_item" href="#">About</a>
+                  <a class="nav-link" href="#about">About</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link m_item" href="#">Contact</a>
+                  <a class="nav-link" href="#contact">Contact</a>
                 </li>
               </ul>
               <form class="d-flex" role="search" id="searchmodalLabel">
@@ -56,15 +57,15 @@
                   <!-- Modal -->
                   <div class="modal fade smodal_width" id="searchmodal" tabindex="-1" aria-labelledby="searchmodalLabel" aria-hidden="true">
                     <div class="modal-dialog">
-                      <div class="modal-content">
+                      <div class="modal-content boxmodal_cont">
                         <div class="modal-body">
                           <div class="modal_box modalbx_width">
                               <div class="row">
-                                <div class="col-md-10 col-sm-9">
-                                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                                <div class="col-sm-9">
+                                <input class="form-control me-2 modalbox_input" type="search" placeholder="Write here what you want !" aria-label="Search">
                               </div>
-                              <div class="col-md-2 col-sm-3 text-center">
-                                <button class="btn mod_btn btn-outline-success" type="submit">Search</button>
+                              <div class="col-sm-3 text-center">
+                                <button class="btn mod_btn common_btn " type="submit">Search</button>
                               </div>
                               </div>
                             </div> 
@@ -132,7 +133,7 @@
     <!-- banner end -->
 
     <!-- service start -->
-    <section class="service cm_padding">
+    <section id="service" class="service cm_padding" id="service">
       <div class="container">
         <!-- 1st row -->
         <div class="row justify-content-center">
@@ -211,7 +212,7 @@
     <!-- service end -->
 
     <!-- about start -->
-    <section class="about cm_padding">
+    <section class="about cm_padding" id="about">
       <div class="container">
         <div class="row align-items-center">
           <div class="col-lg-6">
@@ -233,7 +234,7 @@
     <!-- about end -->
 
     <!-- portfolio start -->
-    <section class="work">
+    <section class="work cm_padding" id="portfolio">
       <div class="container">
         <!-- 1st row -->
         <div class="row justify-content-center">
@@ -1050,7 +1051,7 @@
     <!-- testimony end -->
 
     <!-- contact start -->
-    <section class="contact cm_padding">
+    <section class="contact cm_padding" id="contact">
       <div class="container">
         <div class="row">
           <div class="col-lg-12">
@@ -1122,7 +1123,7 @@
           <div class="row">
             <div class="col-lg-6 col-md-12 order-lg-1 order-2">
               <div class="fb_p">
-                <p class="mb-0">All rights reserved NIPRO AGENCY | By : <a class="text-decoration-none" href="https://www.facebook.com/hemontamondal01" target="_blank">Hemonta Mondal</a></p>
+                <p class="mb-0">All rights reserved NIPRO AGENCY | By : <a class="text-decoration-none" href="#" target="_blank">Hemonta Mondal</a></p>
               </div>
             </div>
             <div class="col-lg-6 col-md-12 order-lg-2 order-1">
