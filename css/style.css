@@ -83,7 +83,7 @@ header{
 	color: #8e8e8e;
 }
 .menu{
-	background-color: none !important;
+	background-color: transparent;
 }
 .menu ul li a{
     margin: 0 15px;
